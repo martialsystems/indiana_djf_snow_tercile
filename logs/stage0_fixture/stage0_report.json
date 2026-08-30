@@ -1,0 +1,111 @@
+{
+  "stage": "0",
+  "fixture": true,
+  "question": "Can October features plus ENSO beat the 1991-2020 DJF snowfall normal at held-out Indiana GHCND stations?",
+  "source": "fixture",
+  "n_rows": 210,
+  "n_stations": 6,
+  "n_train": 168,
+  "n_holdout": 36,
+  "n_confirm": 6,
+  "units": "inches",
+  "feature_names": [
+    "nino34_oct",
+    "snow_normal_in",
+    "prior_djf_in",
+    "oct_tavg_c",
+    "oct_prcp_in",
+    "lat",
+    "elev_m"
+  ],
+  "skill": {
+    "normal": {
+      "rmse_in": 4.560361482283292,
+      "mae_in": 3.955588144211278
+    },
+    "last_year": {
+      "rmse_in": 6.470877129608883,
+      "mae_in": 5.151039857590311
+    },
+    "ridge": {
+      "rmse_in": 2.723368427485975,
+      "mae_in": 2.2884186498035257
+    }
+  },
+  "tercile": {
+    "always_near": 0.19444444444444445,
+    "normal": 0.19444444444444445,
+    "last_year": 0.3888888888888889,
+    "ridge": 0.6388888888888888
+  },
+  "ridge_beats_normal": true,
+  "page_in_scope": true,
+  "station_err": [
+    {
+      "station_id": "USW00014827",
+      "lat": 41.12,
+      "lon": -85.19,
+      "n": 6,
+      "bias_in": -0.481883712215937,
+      "rmse_in": 1.7422193168069293,
+      "normal_rmse_in": 4.29105663540366
+    },
+    {
+      "station_id": "USW00014827B",
+      "lat": 41.0,
+      "lon": -85.0,
+      "n": 6,
+      "bias_in": 0.03335409965543216,
+      "rmse_in": 2.548460176532799,
+      "normal_rmse_in": 3.286617234430817
+    },
+    {
+      "station_id": "USW00014848",
+      "lat": 41.71,
+      "lon": -86.32,
+      "n": 6,
+      "bias_in": -0.16924714791786025,
+      "rmse_in": 3.0437696308586792,
+      "normal_rmse_in": 4.81452983963857
+    },
+    {
+      "station_id": "USW00014848B",
+      "lat": 41.5,
+      "lon": -86.5,
+      "n": 6,
+      "bias_in": 0.6201146853682111,
+      "rmse_in": 2.359318987490552,
+      "normal_rmse_in": 4.921119801370188
+    },
+    {
+      "station_id": "USW00093817",
+      "lat": 38.04,
+      "lon": -87.53,
+      "n": 6,
+      "bias_in": 1.9429531765861483,
+      "rmse_in": 2.9209603402640996,
+      "normal_rmse_in": 5.551014091296034
+    },
+    {
+      "station_id": "USW00093819",
+      "lat": 39.72,
+      "lon": -86.29,
+      "n": 6,
+      "bias_in": -1.7824902871446469,
+      "rmse_in": 3.406979185711153,
+      "normal_rmse_in": 4.165991608570982
+    }
+  ],
+  "confirm": {
+    "n": 6,
+    "ridge_rmse_in": 2.9877983857830657,
+    "normal_rmse_in": 2.8195612724884587
+  },
+  "djf_in_features": false,
+  "p_sfha_feature": false,
+  "p_sfha_label": false,
+  "figures": [
+    "scatter.png",
+    "error_map.png"
+  ]
+}
