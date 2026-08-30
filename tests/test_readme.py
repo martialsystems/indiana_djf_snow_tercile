@@ -19,6 +19,7 @@ def test_readme_opens_with_the_question() -> None:
     assert "ac36f0f" in text
     assert "1416da1" in text
     assert INDEX_GIST.split("/")[-1] in text
+    assert "cd2eadaba9fc1c776ba4a8a22c45a516" in text
     assert ".github/blob/main/RESEARCH.md" not in text
     assert "scatter.png" in text
     assert "error_map.png" in text

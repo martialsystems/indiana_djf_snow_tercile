@@ -6,6 +6,7 @@ No. Holdout Ridge RMSE is 14.48 in against the 1991-2020 normal at 13.00 in. Las
 
 Amount science `ac36f0f`, JJA miss `1416da1`, and winter-lake miss `6b47f21` stay frozen. This tree does not read `p_sfha`, HAND, Nora Q, or NWM. GaugeCorr stays out.
 
+Write-up: https://gist.github.com/martialsystems/cd2eadaba9fc1c776ba4a8a22c45a516  
 Research index: https://gist.github.com/martialsystems/66b896b0a4a0b8cba2b478aef64312f3
 
 Holdout n=24 station-winters (4 GHCND: South Bend, Fort Wayne, Indianapolis, Evansville). Train n=148 through DJF 2018-19. Confirmation DJF 2025-26 is out of train.
