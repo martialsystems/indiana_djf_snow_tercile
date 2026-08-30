@@ -20,7 +20,7 @@ DJF rain, DJF radar, Stage IV, MRMS, HAND, and White River Q are refused as feat
 
 Train DJF 1991-92 through 2018-19. Holdout DJF 2019-20 through 2024-25. Confirmation DJF 2025-26 out of train and out of tercile cuts. Station × winter rows. Spatial leak of the same winter across nearby stations is expected; report pooled RMSE and per-station bias.
 
-Live holdout: Ridge RMSE 14.48, normal 13.00, last year 10.18. October plus ENSO does not beat the normal. Confirmation DJF 2025-26 is scored after lock and does not flip the no.
+Live holdout: Ridge RMSE 14.48, normal 13.00, last year 10.18. October plus ENSO lost to a table of averages; last winter beat both. Confirmation DJF 2025-26 Ridge 4.25 vs normal 7.04 does not reopen a page and does not set cuts.
 
 ## Figures
 

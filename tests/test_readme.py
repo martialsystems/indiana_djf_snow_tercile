@@ -16,6 +16,9 @@ def test_readme_opens_with_the_question() -> None:
     assert "14.48" in text
     assert "13.00" in text
     assert "does not beat the normal" in text
+    assert "does not reopen" in text
+    assert "4.25" in text
+    assert "Holdout is the product" in text
     assert "ac36f0f" in text
     assert "1416da1" in text
     assert INDEX_GIST.split("/")[-1] in text

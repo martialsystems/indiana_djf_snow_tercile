@@ -29,7 +29,9 @@ Locked from `logs/in_live/stage_c_report.json`. Inches. DJF 2019-20 through 2024
 | Last year | 10.18 | 7.83 | 0.58 |
 | Ridge (October + ENSO) | 14.48 | 12.03 | 0.21 |
 
-Always-near tercile hit is 0.17. If Ridge loses to the normal on RMSE, that no is the product. A deeper net stays out.
+Always-near tercile hit is 0.17. Holdout is the product. October plus ENSO lost to a table of averages, and last winter's snow beat both. That is allowed to be the answer.
+
+Confirmation DJF 2025-26 Ridge 4.25 vs normal 7.04 does not reopen a page. It does not set tercile cuts and cannot reverse the holdout. Four cores only. Fixture skill does not rescue live. Do not build the page.
 
 ## Stage 0
 
