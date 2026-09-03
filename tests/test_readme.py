@@ -21,12 +21,10 @@ def test_readme_opens_with_the_question() -> None:
     assert "Holdout is the product" in text
     assert "ac36f0f" in text
     assert "1416da1" in text
-    assert "Open_the_research_console-2e7d32" in text
-    assert "martialsystems.github.io/indiana_wx_pages" in text
-    assert any(
-        "[![Precip writeup]" in line and "[![Open the research console]" in line
-        for line in text.splitlines()
-    )
+    assert "Research index: https://gist.github.com/martialsystems/66b896b0a4a0b8cba2b478aef64312f3" in text
+    assert "Open_the_research_console" not in text
+    assert "66b896b0a4a0b8cba2b478aef64312f3" in text
+    assert "Precip writeup" in text or "b5f900aad37487bb8c0206a321c1ed5c" in text
     assert "b5f900aad37487bb8c0206a321c1ed5c" in text
     assert ".github/blob/main/RESEARCH.md" not in text
     assert "scatter.png" in text

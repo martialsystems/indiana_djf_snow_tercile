@@ -6,7 +6,7 @@ No. Holdout Ridge RMSE is 14.48 in against the 1991-2020 normal at 13.00 in. Las
 
 Amount science `ac36f0f`, JJA miss `1416da1`, and winter-lake miss `6b47f21` stay frozen. This tree does not read `p_sfha`, HAND, Nora Q, or NWM. GaugeCorr stays out.
 
-[![Precip writeup](https://img.shields.io/badge/Precip_writeup-2e7d32?style=for-the-badge)](https://gist.github.com/martialsystems/b5f900aad37487bb8c0206a321c1ed5c) [![Open the research console](https://img.shields.io/badge/Open_the_research_console-2e7d32?style=for-the-badge)](https://martialsystems.github.io/indiana_wx_pages/)
+[Precip writeup](https://gist.github.com/martialsystems/b5f900aad37487bb8c0206a321c1ed5c)
 
 Holdout n=24 station-winters (4 GHCND: South Bend, Fort Wayne, Indianapolis, Evansville). Train n=148 through DJF 2018-19. Confirmation DJF 2025-26 is out of train.
 
@@ -54,3 +54,5 @@ Do not use stock `/usr/bin/python3 -m pytest`. Empty GHCND SNOW or missing 1991-
 | [CHECKLIST.md](CHECKLIST.md) | Operator list |
 | `src/djsnow/` | GHCND SNOW, normals, ENSO, split, Ridge, figures |
 | `snowforge/` | GraphForge pin |
+
+Research index: https://gist.github.com/martialsystems/66b896b0a4a0b8cba2b478aef64312f3
