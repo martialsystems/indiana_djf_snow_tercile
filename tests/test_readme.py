@@ -3,7 +3,7 @@
 from pathlib import Path
 
 from djsnow.claims import scan_text
-from djsnow.config import INDEX_GIST, QUESTION
+from djsnow.config import QUESTION
 
 REPO = Path(__file__).resolve().parents[1]
 
@@ -21,7 +21,12 @@ def test_readme_opens_with_the_question() -> None:
     assert "Holdout is the product" in text
     assert "ac36f0f" in text
     assert "1416da1" in text
-    assert INDEX_GIST.split("/")[-1] in text
+    assert "Open_the_research_console-2e7d32" in text
+    assert "martialsystems.github.io/indiana_wx_pages" in text
+    assert any(
+        "[![Precip writeup]" in line and "[![Open the research console]" in line
+        for line in text.splitlines()
+    )
     assert "b5f900aad37487bb8c0206a321c1ed5c" in text
     assert ".github/blob/main/RESEARCH.md" not in text
     assert "scatter.png" in text
