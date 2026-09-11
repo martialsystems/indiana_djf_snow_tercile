@@ -16,7 +16,7 @@ Figure 1. Holdout DJF inches. Ridge RMSE 14.48 vs normal 13.00. Last year 10.18.
 
 ![Figure 2. Error map](logs/in_live/error_map.png)
 
-Figure 2. Holdout mean Ridge minus observed DJF inches. Seasonal error, not a storm, not water.
+Figure 2. Holdout mean Ridge minus observed DJF inches by city. South Bend +20 in. Seasonal error, not a storm, not water.
 
 ## Live skill (held-out winters)
 

@@ -122,6 +122,7 @@ def fit_pack(pack: WinterPack) -> dict[str, Any]:
         "holdout_obs": y_ho.tolist(),
         "holdout_ridge": p_ridge.tolist(),
         "holdout_normal": p_norm.tolist(),
+        "holdout_station_id": [str(s) for s in st],
         "confirm": confirm_rmse,
         "djf_in_features": False,
         "p_sfha_feature": False,

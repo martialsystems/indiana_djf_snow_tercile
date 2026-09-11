@@ -32,7 +32,7 @@ except ImportError:  # pragma: no cover
 
 
 def _jsonable(report: dict[str, Any]) -> dict[str, Any]:
-    skip = {"holdout_obs", "holdout_ridge", "holdout_normal"}
+    skip = {"holdout_obs", "holdout_ridge", "holdout_normal", "holdout_station_id"}
     return {k: v for k, v in report.items() if k not in skip}
 
 
@@ -82,6 +82,7 @@ def _run(log_dir: Path, *, pack, fixture: bool, extra: dict[str, Any] | None = N
         "holdout_obs": fit["holdout_obs"],
         "holdout_ridge": fit["holdout_ridge"],
         "holdout_normal": fit["holdout_normal"],
+        "holdout_station_id": fit["holdout_station_id"],
     }
     if extra:
         report.update(extra)

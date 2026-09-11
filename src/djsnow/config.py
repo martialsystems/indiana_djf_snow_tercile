@@ -49,11 +49,12 @@ AMOUNT_SHA = "ac36f0f"
 JJA_MISS_SHA = "1416da1"
 WINTER_LAKE_SHA = "6b47f21"
 LIVE_SCATTER_SUBTITLE = (
-    "Holdout DJF inches. Ridge RMSE 14.48 vs normal 13.00. Last year 10.18. "
+    "Holdout DJF inches. Ridge RMSE 14.48 vs normal 13.00. "
     "October plus ENSO is a no. Seasonal, not a storm."
 )
 LIVE_MAP_SUBTITLE = (
-    "Holdout mean Ridge minus observed DJF inches. Seasonal error, not a storm, not water."
+    "Holdout mean Ridge minus observed DJF inches by city. "
+    "South Bend +20 in. Seasonal error, not a storm, not water."
 )
 FIXTURE_SCATTER_SUBTITLE = "Fixture planted ENSO-snow. Does not rescue live skill."
 FIXTURE_MAP_SUBTITLE = "Fixture mean error. Does not rescue live skill."
